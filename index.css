@@ -1,0 +1,273 @@
+*{    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(56, 56, 58);
+    width: 360px;
+    margin-top: 10px;
+
+}
+
+.phone_container{
+    height: 800px;
+    width: 390px;
+    margin: auto;
+    border-radius: 9px/9px;
+    border: 10px solid rgb(0, 0, 0);
+    position: relative;
+    background-color: rgb(25, 25, 25);
+}
+
+.phone_content{
+  height: 802px;
+  width: 391px;
+  position: absolute;
+  top: -1px;
+}
+
+.phone_bar{
+    background-color: rgb(25, 25, 25);
+}
+
+.top_title{
+    font-size: 30px;
+    color: white;
+    margin-left: 14px;
+}
+
+.phone_top{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon_bar{
+    content: url(./img/StatusBar/iPhone\ 13\ &\ 13\ Pro.svg);
+    position: static;
+}
+
+.phone_search{
+    width: 343px;
+    height: 36px;
+    margin: auto;
+    border-radius: 10px/10px;
+    border: none;
+    background-color: rgba(118, 118, 128, 24%);
+    padding-left: 14px;
+}
+
+.phone_users{
+    display: flex;
+    flex-direction: column;
+}
+
+.user__name{
+    font-weight: 600;
+}
+
+.user_card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 14px;
+    margin-right: 14px;
+    height: 40px;
+}
+
+.user__info:visited, .user__info{
+    text-decoration: none;
+    color: white;
+}
+
+.button_container{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    justify-content: center;}
+
+.add_button{
+    font-size: 36px;
+    text-align: center;
+    background-color: rgba(118, 118, 128, 24%);
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 30px/30px;
+}
+
+.add_button:hover{
+    background:linear-gradient(#64e6bd, #8d2eb3);
+}
+
+.user_buttons{
+    height: 70px;
+    width: 390px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__text{
+    margin-top: 5px;
+}
+
+.img_section{
+    width: 100%;
+    height: 50%;
+    background:linear-gradient(#64e6bd, #8d2eb3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.phone__img{
+    background-color: rgba(174, 174, 178);
+    border: 5px solid #8d2eb3;
+    height: 50%;
+    width: 50%;
+    border-radius: 100px/100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_img{
+    height: 40%;
+    width: auto;
+}
+
+.user__contact-name{
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.user_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.user_inputGroup{
+    background-color: rgb(72, 72, 74);
+    border-radius: 5px/5px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    padding:2%;
+    margin: 10px;
+}
+
+.user_inputGroup:nth-of-type(1){
+    margin-top: 40px;
+}
+
+label{
+    margin-bottom: 10px;
+    color: #D3A2E7;
+}
+
+input{
+    height: 30px;
+    background-color: rgba(217, 217, 217, 0.796);
+    border: none;
+    border-radius: 10px/10px;
+    padding-left: 5px;
+}
+
+.inputInactive{
+    height: 30px;
+    background-color: rgb(42, 42, 42);
+    border: none;
+    border-radius: 10px/10px;
+    color: #baeadb;
+    padding-left: 5px;
+}
+
+.user_content{
+    overflow-y: scroll;
+    max-height: 340px;
+}
+
+.btn_back{
+    background-color: #ffffff00;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.backImg{
+    height: 20px;
+    width: auto;
+}
+
+#popUp{
+    height: 150px;
+    width: 250px;
+    background-color: #eaeaea;
+    position: sticky;
+    top:50%;
+    left: 40%;
+    border-radius: 5px/5px;
+}
+
+.popUp_Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(244, 51, 8);
+    padding: 2rem 1rem;
+}
+
+#popUpText{
+    font-weight: 600;
+    color: rgb(244, 51, 8);
+}
+
+.btn_close{
+    border: 3px solid #8d2eb3;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    color: #8d2eb3;
+    background-color: #e9c9f6;
+}
+
+.btn{
+    height: 45px;
+    width: 75px;
+    background-color: #8d2eb3;
+    color: white;
+    border: 3px solid #D3A2E7;
+    font-variant: small-caps;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: #D3A2E7;
+    color: rgb(25, 25, 25);
+    border: 3px solid #D3A2E7;
+}
