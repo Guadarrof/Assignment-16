@@ -189,19 +189,11 @@ label{
 }
 
 input{
-    height: 30px;
-    background-color: rgba(217, 217, 217, 0.796);
-    border: none;
-    border-radius: 10px/10px;
-    padding-left: 5px;
-}
-
-.inputInactive{
+    color: #baeadb;
     height: 30px;
     background-color: rgb(42, 42, 42);
     border: none;
     border-radius: 10px/10px;
-    color: #baeadb;
     padding-left: 5px;
 }
 
@@ -228,10 +220,10 @@ input{
     height: 150px;
     width: 250px;
     background-color: #eaeaea;
-    position: sticky;
     top:50%;
     left: 40%;
     border-radius: 5px/5px;
+    position: sticky;
 }
 
 .popUp_Content{
